@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bully Busters</string>
+
+    <string-array name="Bully_Busters">
+        <item>Cyber Bullying</item>
+        <item>Verbial Bullying</item>
+        <item>Pysical Bullying</item>
+    </string-array>
+</resources>
