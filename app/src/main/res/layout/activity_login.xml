@@ -56,7 +56,7 @@
         android:layout_width="300dp"
         android:layout_height="250dp"
         android:id="@+id/imageView"
-        android:src="@drawable/LockPicture"
+        android:src="@drawable/lockpicture"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
