@@ -16,11 +16,11 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/emailAddress"
-        android:hint="Email Address"
+        android:hint="@string/email_address"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="246dp"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -31,8 +31,8 @@
         android:layout_marginTop="294dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:hint="Password"
-        android:textSize="30dp" />
+        android:hint="@string/password"
+        android:textSize="30sp" />
 
     <Switch
         android:layout_width="wrap_content"
@@ -41,12 +41,12 @@
         android:id="@+id/switch1"
         android:layout_below="@+id/Password"
         android:layout_centerHorizontal="true"
-        android:textSize="25dp" />
+        android:textSize="25sp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign In"
+        android:text="@string/sign_in"
         android:id="@+id/loginButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -58,6 +58,7 @@
         android:id="@+id/imageView"
         android:src="@drawable/lockpicture"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/lock_image"/>
 
 </RelativeLayout>
