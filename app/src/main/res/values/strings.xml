@@ -7,10 +7,9 @@
     <string name="email">Email</string>
     <string name="login">Login</string>
     <string name="no_account_yet_create_one">No account yet? Create one</string>
-
-    <string-array name="Bully_Busters">
-        <item>Cyber Bullying</item>
-        <item>Verbial Bullying</item>
-        <item>Pysical Bullying</item>
-    </string-array>
+    <string name="report">Report Bullying</string>
+    <string name="contacts">Contacts</string>
+    <string name="info_on_bullying">Info on Bullying</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="send_location">Send Location</string>
 </resources>
